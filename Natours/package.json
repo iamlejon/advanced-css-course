@@ -1,0 +1,17 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "\"Landing page for natours\"",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass starter/sass/main.scss starter/css/style.css -w"
+  },
+  "author": "Dominique LeJon",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
